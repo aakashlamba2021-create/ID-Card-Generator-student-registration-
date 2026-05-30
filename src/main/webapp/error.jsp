@@ -13,6 +13,18 @@
     <div class="blur-blob blob-1"></div>
     <div class="blur-blob blob-2"></div>
 
+    <!-- Navigation Header -->
+    <nav class="nav-header">
+        <a href="${pageContext.request.contextPath}/registration.jsp" class="nav-brand">Student Portal</a>
+        <div class="nav-links">
+            <a href="${pageContext.request.contextPath}/registration.jsp" class="nav-link">Register Student</a>
+            <a href="${pageContext.request.contextPath}/register" class="nav-link">View Directory</a>
+            <% if (session.getAttribute("isAdmin") != null) { %>
+                <a href="${pageContext.request.contextPath}/logout" class="nav-link" style="color: #ef4444;">Logout</a>
+            <% } %>
+        </div>
+    </nav>
+
     <div class="container">
         <div class="card alert-card">
             

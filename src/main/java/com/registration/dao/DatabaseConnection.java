@@ -15,7 +15,7 @@ public class DatabaseConnection {
     // 'allowPublicKeyRetrieval=true' is added for compatibility with MySQL 8.x authentication.
     private static final String URL = "jdbc:mysql://localhost:3306/college_db?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC";
     private static final String USER = "root";
-    private static final String PASSWORD = "4532"; 
+    private static final String PASSWORD = "8619373760"; 
 
     /**
      * Establishes and returns a connection to the MySQL database.
