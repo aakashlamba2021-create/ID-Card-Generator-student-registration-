@@ -1,0 +1,11 @@
+# Ignore local Tomcat temporary directories
+temp_tomcat/
+C:/temp-student-reg/
+temp-student-reg/
+.metadata/
+*.log
+*.class
+.settings/
+.project
+.classpath
+target/
